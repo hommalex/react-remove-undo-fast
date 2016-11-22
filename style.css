@@ -1,0 +1,9 @@
+* { font: 22px arial, sans-serif; }
+ul { list-style: none; margin:0;padding:0;}
+ul li { margin: 10px; display: inline-block; float:left; cursor: pointer;}
+ul li:hover:before {
+  content: "x";
+  position: absolute;
+  padding: 23px 30px;
+  background-color: rgba(233,122,20,.5);
+}
